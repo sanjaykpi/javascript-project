@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./icofont/icofont.css">
+</head>
+<body>
+    <section class="container">
+        <div class="heading">
+            <h2>Create Account</h2>
+        </div>
+        <form class="form" id="form">
+            <div class="form-control">
+                <label for="">User Name</label>
+                <input type="text" placeholder="Enter Your Name" id="username">
+                <i class="icofont-check-circled"></i>
+                <i class="icofont-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="">User Email</label>
+                <input type="email" placeholder="Enter Your Email" id="email">
+                <i class="icofont-check-circled"></i>
+                <i class="icofont-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="">Password</label>
+                <input type="password" placeholder="Enter Your Password" id="password">
+                <i class="icofont-check-circled"></i>
+                <i class="icofont-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="">Confirm Password</label>
+                <input type="password" placeholder="Confirm Password" id="password2">
+                <i class="icofont-check-circled"></i>
+                <i class="icofont-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <button>Submit</button>
+        </form>
+    </section>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
